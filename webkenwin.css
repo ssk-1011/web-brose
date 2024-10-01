@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0a0a0a;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Keep it on top */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+.title-red{
+    font-size: 1.5em;
+    color: red;
+}
+.title-blue{
+    font-size: 1.5em;
+    color: rgb(55, 0, 255);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+}
+
+.toggle-btn {
+    display: none; 
+}
+
+.main-content {
+    margin-top: 70px; /* Ensure content doesn't go under navbar */
+    padding: 20px;
+
+}
+
+section {
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd; /* Optional for visual separation */
+}
+
+.home-card{
+    background-image: url("https://img.freepik.com/premium-photo/brown-v-board-education-national-historic-site_880100-6232.jpg?");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home-heading{
+    font-family: "roboto";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+}
+.head-spane1{
+    color: red;
+}
+.head-spane2{
+    color: rgb(231, 231, 240);
+}
+.home-para{
+    color: white;
+    font-family: "roboto";
+    font-size: 30px;
+}
+.btn-employe{
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+.btn-student{
+    color: white;
+    background-color: black;
+    border: 1px solid blue;
+    height: 50px;
+    width: 60px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+.about-section-card{
+    background-color: aliceblue;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about-kenwin-card{
+    height: 60vh;
+    width: 100%;
+    /*background-color: rgb(187, 194, 192);*/
+    background-image: linear-gradient(rgb(220, 246, 180), rgb(154, 178, 229));
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.about-school-card{
+    height: 60vh;
+    width: 100%;
+    /*background-color: rgb(187, 194, 192);*/
+    background-image: linear-gradient(#605c5e,#dec7f3);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.about-heading{
+    color: rgb(222, 13, 13);
+    
+}
+
+.selection-employe-card{
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 250, 245);
+    padding: 20px;
+}
+.selection-employe{
+    height: 70vh;
+    background-color: rgb(210, 226, 239);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.employe-card{
+    height: 60vh;
+    background-image: linear-gradient(rgb(103, 225, 203),pink);
+    margin: 10px;
+    width: 100%;
+}
+
+.selection-serivce-card{
+    height: 80vh;
+    background-color: rgb(232, 237, 239);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+.serivce-card-content{
+    height: 70vh;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.serivce-card-image{
+    height: 70vh;
+    
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-heading{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.selection-head{
+    color: rgb(225, 144, 144);
+}
+.selection-image{
+    height: 70vh;
+    width: 90%;
+    
+}
+
+.section-activities{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #e8def1;
+    width: 100%;
+
+}
+.activaties-card-list{
+    color: #f8f3f3;
+    background-color: #0a0a0a;
+    border: 1px solid black;
+    padding: 10px;
+    height: 80vh;
+    width: 100%;
+    
+}
+.activaties-card-images{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    height: 80vh;
+    width: 100%;
+
+}
+.image-list-cards{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+    margin: 10px;
+}
+.image-list{
+    height: 20vh;
+    width: 10vw;
+    border: 1px solid greenyellow;
+    padding: 1px;
+}
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide links on small devices */
+        flex-direction: column; /* Stack links vertically */
+        width: 100%;
+        background-color: #333; /* Ensure background matches navbar */
+        position: absolute;
+        top: 60px; /* Position under navbar */
+        left: 0;
+    }
+    
+    .toggle-btn {
+        display: block; /* Show toggle button on small devices */
+        margin-left: auto; /* Push button to the right */
+    }
+
+    .nav-links.active {
+        display: flex; /* Show links when activated */
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center; /* Center align links */
+    }
+}
